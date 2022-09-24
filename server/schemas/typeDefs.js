@@ -24,10 +24,10 @@ const typeDefs = gql`
   }
 
   input saveBookInput {
+    bookId: ID!
     authors: [String]!
     description: String!
     title: String!
-    bookId: String!
     image: String!
     link: String!
   }
