@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useQuery } from 'react';
 import {
   Jumbotron,
   Container,
@@ -12,7 +12,7 @@ import { REMOVE_BOOK } from '../utils/mutations';
 
 // import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
-// import { removeBookId } from '../utils/localStorage';
+import { removeBookId } from '../utils/localStorage';
 
 const SavedBooks = () => {
   // const [userData, setUserData] = useState({});
@@ -77,7 +77,7 @@ const SavedBooks = () => {
   };
 
   // if data isn't here yet, say so
-  if (!userDataLength) {
+  if (!userData.length) {
     return <h2>LOADING...</h2>;
   }
 
