@@ -22,6 +22,7 @@ Run `npm i` to install all dependencies.
 ## Usage
 
 Create an account and search for books. You can save the books you like to your own personal page.
+![Screenshot 2022-09-29 234806](https://user-images.githubusercontent.com/103615812/193192415-34e9ea19-95ce-4763-97da-95a33ebb4e26.png)  
 
 ## License
 
